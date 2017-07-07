@@ -1,17 +1,20 @@
 body {
   background-color: #282828;
   text-align: center;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
   color: #ebdbb2;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Code Pro', monospace;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Bungee Shade', cursive;
   text-align: center;
-  color: #ebdbb2;
+  color: #d79921;
   font-size: 90;
 }
 
@@ -28,17 +31,23 @@ list {
 .all {
   display: inline-block;
   vertical-align: top;
-  align-self: center;
-  margin-left: 1em;
+  width: 12em;
 }
 
-.all:nth-child(1) {
-  margin-left: 0;
+.wrap {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .title {
   text-align: center;
-  width: 12em;
+  width: 100%;
+}
+
+h3 {
+  width: 100%;
+  padding: .125rem;
 }
 
 .google {
@@ -64,9 +73,18 @@ list {
 .links {
   text-align: center;
   color: #282828;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Source Code Pro', monospace;
   text-decoration: none;
   font-weight: bold;
   background-color: #ebdbb2;
-  width: 12em;
+  width: 100%;
+  padding: .25rem;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
