@@ -51,23 +51,15 @@ h3 {
 }
 
 .google {
-  background-color: #cc241d;
-}
-
-.reddit {
   background-color: #458588;
 }
 
-.programming {
+.php {
   background-color: #689d6a;
 }
 
-.gaming {
-  background-color: #d65d0e;
-}
-
-.linux {
-  background-color: #98971a;
+.js {
+  background-color: #b16286;
 }
 
 .links {
